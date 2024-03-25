@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mídias</title>
+</head>
+<body>
+<!--Esta tag adiciona uma imagem-->
+<img src="./img/camaro-transformers-620 (1).webp" alt="Foto - Camaro Amarelo" >
+
+    <h1>Vídeo clip do Eduardo Costa Me ajuda</h1>
+<!--Esta tag cria um player de vídeo com diversos controles-->
+<video controls width="600" height="350"  id="video">
+    <source src="./midias/me-ajuda-eduardo-costa.mp4" type="video/mp4">
+</video>
+<br>
+<!--Esta tag cria um player de áudio-->
+<audio controls id="play">
+    <source src="./midias/Leo.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+<button  onclick="document.getElementById('play').play()"> Play </button>
+<button  onclick="document.getElementById('play').pause()"> Pausar </button>
+
+<h1>Aqui é o player do vídeo</h1>
+<button  onclick="document.getElementById('video').play()"> Play </button>
+<button  onclick="document.getElementById('video').pause()"> Pausar </button>
+
+
+
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uIxl-kFVNQs?si=w9yQ-_MF3iawlVvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+</body>
+</html>
